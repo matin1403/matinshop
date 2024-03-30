@@ -1,3 +1,16 @@
 body {
     font-family: "Vazirmatn UI FD NL";
 }
+#offers .offer-item {
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-size: cover !important;
+    height: 14rem;
+}
+a{
+    text-decoration: none;
+}
+/* Featues */
+#features .row {
+    background-color: #f4ebfb;
+}
