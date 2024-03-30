@@ -184,8 +184,8 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="offer-item px-5 py-4" style="background: url('assets/img/airpod3.jpg') no-repeat 0">
                         <div class="details">
-                            <p>ایرپاد 3</p>
-                            <p class="h6">7 درصد تخفیف ایرپاد</p>
+                            <p>airpod</p>
+                            <p class="h6">7 درصد تخفیف خرید ایرپاد</p>
                             <a href="single-product.html" class="text-dark"><i class="bx bx-cart"></i> خرید</a>
                         </div>
                     </div>
@@ -202,8 +202,8 @@
                 <div class="col-md-4">
                     <div class="offer-item px-5 py-4" style="background: url('assets/img/speaker.jpg') no-repeat 0">
                         <div class="details">
-                            <p>دماسنج</p>
-                            <p class="h6">25 درصد تخفیف دماسنج گوش</p>
+                            <p>speaker</p>
+                            <p class="h6">10 درصد تخفیف خرید اسپیکر</p>
                             <a href="single-product.html" class="text-dark"><i class="bx bx-cart"></i> خرید</a>
                         </div>
                     </div>
@@ -256,7 +256,130 @@
                 </div>
             </div>
         </div>
-    </section>.,..
+    </section>
+
+    <section id="categories" class="my-5">
+        <div class="container">
+            <div class="section-title border-2 border-top my-5">
+                <h2 style="text-align: center;">دسته بندی</h2>
+            </div>
+            <div class="items d-flex flex-wrap justify-content-around">
+                <div class="item text-center me-2">
+                    <a href="products.html" class="cat-img rounded-circle p-4 d-block mb-2">
+                        <img src="assets/img/15.jpg" alt="">
+                    </a>
+                    <h6>موبایل</h6>
+                    <p class="text-secondary">9 محصول</p>
+                </div>
+                <div class="item text-center me-2">
+                    <a href="products.html" class="cat-img rounded-circle p-4 d-block mb-2">
+                        <img src="assets/img/airpod.jpg" alt="">
+                    </a>
+                    <h6>ایرپاد</h6>
+                    <p class="text-secondary">5 محصول</p>
+                </div>
+                <div class="item text-center me-2">
+                    <a href="products.html" class="cat-img rounded-circle p-4 d-block mb-2">
+                        <img src="assets/img/apple headphone.jpg" alt="">
+                    </a>
+                    <h6>هدفون</h6>
+                    <p class="text-secondary">7 محصول</p>
+                </div>
+                <div class="item text-center me-2">
+                    <a href="products.html" class="cat-img rounded-circle p-4 d-block mb-2">
+                        <img src="assets/img/Apple-Homepod-Mini-All-1.jpg" alt="">
+                    </a>
+                    <h6>اسپیکر</h6>
+                    <p class="text-secondary">9 محصول</p>
+                </div>
+               
+              
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Countdown -->
+    <section id="countDown" class="text-center py-5 mb-5">
+        <p class="text-primary fs-5">تخفیف ویژه</p>
+        <p class="h1 px-5">تا 50% تخفیف، همه ی فروش ها نهایی هستند!</p>
+        <div class="simplyCountdown py-4"></div>
+        <a href="#" class="btn btn-primary btn-lg">
+            <i class="bx bx-cart align-middle"></i>
+            <span>خرید</span>
+        </a>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -269,6 +392,7 @@
     <script src="assets/plugin/bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/plugin/jquery-3.7.1/jquery-3.7.1.min.js"></script>
     <script src="assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/plugin/simplyCountdown.js-master/dist/simplyCountdown.min.js"></script>
     <script>$('.owl-carousel').owlCarousel({
             rtl: true,
             loop: true,
@@ -276,6 +400,32 @@
             nav: true,
             items: 1,
         })
+ // Countdown
+        // This is an example with default parameters
+        // You'll always have to call simplyCountdown using ID's, no classes.
+        simplyCountdown('.simplyCountdown', {
+                year: 2024, // required
+                month: 1, // required
+                day: 1, // required
+                hours: 0, // Default is 0 [0-23] integer
+                
+                words: { //words displayed into the countdown
+                    days: { singular: 'روز', plural: 'روز' },
+                    hours: { singular: 'ساعت', plural: 'ساعت' },
+                    minutes: { singular: 'دقیقه', plural: 'دقیقه' },
+                    seconds: { singular: 'ثانیه', plural: 'ثانیه' }
+                },
+                inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
+        });
+
+        // Also, you can init with already existing Javascript Object.
+        let myElement = document.querySelector('.simplyCountdown');
+        simplyCountdown(myElement, { /* options */ });
+
+        let multipleElements = document.querySelectorAll('.simplyCountdown');
+        simplyCountdown(multipleElements, { /* options */ });
+
+
     </script>
 </body>
 

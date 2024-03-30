@@ -15,3 +15,60 @@ a{
 #features .row {
     background-color: #f4ebfb;
 }
+/* Categories */
+
+#categories .cat-img img {
+    height: 4rem;
+    width: 4rem;
+}
+/* CountDown */
+#countDown {
+    background: url(../img/hot-deal-bg.jpg) no-repeat 0;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-size: cover;
+}
+
+#countDown .simplyCountdown  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#countDown .simplyCountdown .simply-section {
+    display: none;
+    padding: 0.8rem 1.4rem;
+    margin: 0.3rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+
+#countDown .simplyCountdown .simply-section:nth-child(1) {
+    display: inline-block;
+}
+
+#countDown .simplyCountdown .simply-section:nth-child(2) {
+    display: inline-block;
+}
+
+#countDown .simplyCountdown .simply-section:nth-child(3) {
+    display: inline-block;
+}
+
+#countDown .simplyCountdown .simply-section:nth-child(4) {
+    display: inline-block;
+}
+
+#countDown .simplyCountdown .simply-section .simply-amount {
+    display: block;
+    font-weight: 900;
+}
+
+#countDown .simplyCountdown .simply-section .simply-word {
+    display: block;
+}
+
