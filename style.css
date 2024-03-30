@@ -4,9 +4,10 @@ body {
 #offers .offer-item {
     background-position-x: center !important;
     background-position-y: center !important;
-    background-size: cover !important;
+    background-size: 15rem !important;
     height: 14rem;
 }
+
 a{
     text-decoration: none;
 }
