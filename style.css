@@ -140,4 +140,6 @@ a{
 }
 #newsletter {
     background-color: rgb(241, 241, 241);
-}
+    margin: 1rem;
+    padding: 1rem;
+   }
