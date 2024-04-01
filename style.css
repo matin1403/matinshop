@@ -72,3 +72,7 @@ a{
     display: block;
 }
 
+/* New products */
+#new-products .items .item .image img {
+    width: 100%;
+}
