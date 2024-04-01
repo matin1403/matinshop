@@ -41,6 +41,7 @@ a{
     background-position-x: center !important;
     background-position-y: center !important;
     background-size: cover;
+    
 }
 
 #countDown .simplyCountdown  {
@@ -124,6 +125,6 @@ a{
 }
 #newsletter {
     background-color: rgb(241, 241, 241);
-    margin: 5rem;
+   margin: 5rem;
     
    }
