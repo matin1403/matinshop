@@ -2,23 +2,7 @@ body {
     font-family: "Vazirmatn UI FD NL";
 }
 /*----- Owl Carousel  -----*/
-button.owl-prev {
-    background: #9d9d9d94 !important;
-    color: #eae7fc !important;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 2rem !important;
-    line-height: 1.3 !important;
-}
 
-button.owl-next {
-    background: #9d9d9d94 !important;
-    color: #eae7fc !important;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 2rem !important;
-    line-height: 1.3 !important;
-}
 
 #top-head-slider .owl-nav {
     position: absolute;
@@ -140,6 +124,6 @@ a{
 }
 #newsletter {
     background-color: rgb(241, 241, 241);
-    margin: 10rem;
+    margin: 11rem;
     
    }
