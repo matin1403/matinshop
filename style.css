@@ -76,3 +76,26 @@ a{
 #new-products .items .item .image img {
     width: 100%;
 }
+
+/*brands*/
+#brands div div{
+    text-align: center;
+}
+
+
+
+#brands .items img{
+    height: 5rem;
+    width: 5rem;
+
+
+
+
+}
+/* Articles */
+#articles .article .image img {
+    width: 100%;
+}
+#articles .article .details .writer img {
+    width: 3rem;
+}
