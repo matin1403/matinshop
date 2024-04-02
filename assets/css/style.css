@@ -1,6 +1,6 @@
-body {
-    font-family: "Vazirmatn UI FD NL";
-}
+/*----- Fonts  -----*/
+@import url('../webfonts/vazir/UI/Vazirmatn-UI-font-face.css');
+@import url('../webfonts/vazir/UI-Farsi-Digits-Non-Latin/Vazirmatn-UI-FD-NL-font-face.css');
 /*----- Owl Carousel  -----*/
 
 
@@ -149,4 +149,34 @@ a{
 #subfooter {
     background-color: #ded6e6;
     font-size: 0.9rem;
+}
+
+/*----- Productes page -----*/
+/* Title section */
+#title-section {
+    background-color: #f4ebfb;
+}
+
+/* Best sellers */
+#best-sellers .item img {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+/* Ads */
+#ads img {
+    width: 100%
+}
+
+/* main-filter */
+#main-filter {
+    background-color: #f4ebfb;
+}
+#main-filter p {
+    font-size: 0.8rem;
+}
+
+/* Products */
+#products-page-products .items .item img{
+    width: 100%;
 }
