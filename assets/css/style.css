@@ -181,27 +181,136 @@ a{
     width: 100%;
 }
 #footer .logo {
-    height: 4rem;
+    height: 6rem;
+    width: 6rem;
+}
+
+
+/*----- Single product page -----*/
+.single-product-page-rating {
+    display: inline;
+}
+
+.counter-input {
+    display: inline-flex;
+    border: 1px solid #d085ff;
+}
+
+.counter-input button {
+    margin: 0;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    background-color: #d7d5d8;
+
+}
+.counter-input input {
+    margin: 0;
+    border: none;
     width: 4rem;
+    text-align: center;
+}
+
+.comments .comment {
+    border-bottom: 1px solid #d7d5d8;
+}
+.comments .comment .user-avatar {
+    width: 7rem;
+}
+
+/*----- Cart page ------*/
+#cart-page-table thead tr th {
+    background: #d7d5d8 !important;
+    padding: 1rem 0;
+    text-align: center;
+}
+#cart-page-table .product-thumbnail img {
+    width: 5rem;
+}
+.cart-total-desc h3 {
+    background-color: #d7d5d8;
+    padding: 1rem 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.cart-total-desc ul {
+    list-style-type: none;
+    padding: 2rem;
+}
+.cart-total-desc ul li {
+    font-weight: 900;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid #eee;
+}
+.cart-total-desc ul li span {
+    float: left;
+    font-weight: 300;
+}
+
+
+
+/*----- Checkout page -----*/
+.billing-details-desc h4,
+.order-details-desc h4 {
+    background-color: #d7d5d8;
+    padding: 1rem 0.8rem;
+}
+.billing-details-desc .form-content {
+    background-color: #ffffff;
+}
+.order-details-desc ul {
+    list-style-type: none;
+    padding: 2rem;
+}
+.order-details-desc ul li {
+    font-weight: 900;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid #d7d5d8;
+}
+.order-details-desc ul li span {
+    float: left;
+    font-weight: 300;
 }
 
 
 
 
+/*----- Contact us page -----*/
+#address .address {
+    background-color: #d7d5d8;
+}
+#address .hours {
+    background-color: #d7d5d8;
+}
+
+/* Map */
+#map iframe {
+  width: 100%;
+    height: 25rem;
+    
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*----- About page -----*/
+.about-image {
+    position: relative;
+}
+.about-image::before {
+    top: -20px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    right: -20px;
+    height: 100%;
+    position: absolute;
+    background-color: var(--bs-primary);
+}
+.about-content h2 {
+    line-height: 1.5;
+}
+.why-choose-us .single-why-choose-box {
+    background-color: #d7d5d8;
+}
 
 
 
@@ -292,7 +401,7 @@ a{
         background-color: green;
     } */
     #top-head-slider .item {
-        height: 22rem;
+        height: 26rem;
     }
     #top-head-slider .item .slider-img {
         height: 20rem;
