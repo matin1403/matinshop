@@ -1,6 +1,20 @@
 /*----- Fonts  -----*/
 @import url('../webfonts/vazir/UI/Vazirmatn-UI-font-face.css');
 @import url('../webfonts/vazir/UI-Farsi-Digits-Non-Latin/Vazirmatn-UI-FD-NL-font-face.css');
+/*----- Elements  -----*/
+body {
+    font-family: 'Vazirmatn UI';
+}
+
+/*----- Classes  -----*/
+.vazir-digit {
+    font-family: 'Vazirmatn UI FD NL';
+}
+
+
+
+
+
 /*----- Owl Carousel  -----*/
 
 
@@ -52,9 +66,9 @@ a{
 
 #countDown .simplyCountdown .simply-section {
     display: none;
-    padding: 0.8rem 1.4rem;
-    margin: 0.3rem;
-    background-color: white;
+    padding: 0.8rem 1.1rem;
+    margin: 0.5rem;
+    background-color: rgb(211, 203, 203);
     border-radius: 0.4rem;
     -webkit-border-radius: 0.4rem;
     -moz-border-radius: 0.4rem;
@@ -112,14 +126,14 @@ a{
     width: 100%;
 }
 #articles .article .details .writer img {
-    width: 3rem;
+    width: 3;
 }
 /* Newsletter */
 #newsletter form input[type="text"] {
     padding: 0.7rem 0.9rem;
 }
 #newsletter form input[type="submit"] {
-    left: 6.5rem;
+    left: 6.8rem;
     top: 0.4rem;
     position: relative;
 }
